@@ -40,6 +40,14 @@ describe('pitch detection', () => {
     expect(buffer.push(samples.slice(0, 2048), 48000)).toBeUndefined();
     buffer.reset(); expect(buffer.push(samples.slice(0, 2048), 48000)).toBeUndefined();
   });
+  it('tracks a low Drop D across irregular 48 kHz hardware chunks', () => {
+    const samples = tone(frequencyFor(38), 48000, true);
+    const buffer = new PitchBuffer();
+    expect(buffer.push(samples.slice(0, 960), 48000)).toBeUndefined();
+    expect(buffer.push(samples.slice(960, 3008), 48000)).toBeUndefined();
+    const result = buffer.push(samples.slice(3008), 48000);
+    expect(Math.abs(centsBetween(result!.frequency, frequencyFor(38)))).toBeLessThan(2);
+  });
   it('reads interleaved stereo without doubling the pitch', () => {
     const samples = tone(110); const stereo = new Float32Array(8192);
     samples.forEach((v, i) => { stereo[i * 2] = v; stereo[i * 2 + 1] = v; });

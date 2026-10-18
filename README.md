@@ -1,5 +1,7 @@
 # Pocket Guitar Tuner
 
+App Store name: **Pocket Strings: Guitar Tuner**.
+
 A small, native iOS guitar tuner built with Expo SDK 57, React Native, and TypeScript. Standard and Drop D tuning, automatic string matching or manual string lock, a cents meter, and adjustable A4 reference (430–450 Hz). No account, advertising, analytics, audio storage, or backend.
 
 ## Develop
@@ -25,6 +27,8 @@ The microphone is requested only after Start tuning. YIN detects the fundamental
 npx eas-cli build --platform ios --profile production
 npx eas-cli submit --platform ios --profile production
 ```
+
+Version 1.0.0 (build 2) is available to internal testers in TestFlight and was submitted for App Review on October 18, 2026. Release is automatic after Apple approves. [App Store Connect](https://appstoreconnect.apple.com/apps/6824234223/distribution) · [TestFlight builds](https://appstoreconnect.apple.com/apps/6824234223/testflight/ios).
 
 The App Store Connect record and EAS project belong to Jake's existing accounts. App Store review and approval are separate from the TestFlight upload. See `app-store/` for listing text and release status. Never commit signing keys, credentials, environment files, or exported IPAs.
 

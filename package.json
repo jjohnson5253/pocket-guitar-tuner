@@ -9,8 +9,8 @@
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "build:ios": "eas build --platform ios --profile production",
-    "submit:ios": "eas submit --platform ios --profile production"
+    "build:ios": "npx eas-cli build --platform ios --profile production",
+    "submit:ios": "npx eas-cli submit --platform ios --profile production"
   },
   "dependencies": {
     "expo": "~57.0.24",

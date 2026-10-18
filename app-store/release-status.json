@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-10-18T15:14:03.058Z",
+  "appId": "6824234223",
+  "appName": "Pocket Strings: Guitar Tuner",
+  "version": "1.0.0",
+  "buildNumber": "2",
+  "buildId": "252a85a7-4038-4fd3-91ce-c93e2883e2c7",
+  "processingState": "VALID",
+  "versionId": "6a91736d-167a-4d2d-9cf3-9a81f9f3bea7",
+  "releaseType": "AFTER_APPROVAL",
+  "submissionId": "0efb6eab-3178-47c0-bf47-64af1da38364",
+  "submissionState": "WAITING_FOR_REVIEW",
+  "submittedDate": "2026-10-18T15:14:01.497Z",
+  "testFlightGroup": "Team (Expo)",
+  "screenshots": [
+    {
+      "display": "APP_IPAD_PRO_3GEN_129",
+      "files": [
+        {
+          "name": "01-standard.png",
+          "state": "COMPLETE",
+          "checksum": "6b6e6a27fb702dbd71f260b130120c82"
+        },
+        {
+          "name": "02-drop-d.png",
+          "state": "COMPLETE",
+          "checksum": "b9058f764f11f6b91404ae3170e3bb98"
+        }
+      ]
+    },
+    {
+      "display": "APP_IPHONE_67",
+      "files": [
+        {
+          "name": "01-standard.png",
+          "state": "COMPLETE",
+          "checksum": "63455ac27cae0d826a87cfd4752b2e94"
+        },
+        {
+          "name": "02-drop-d.png",
+          "state": "COMPLETE",
+          "checksum": "6d273aed2a86526cd492f9b515ebb5c6"
+        }
+      ]
+    }
+  ]
+}

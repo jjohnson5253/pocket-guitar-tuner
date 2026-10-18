@@ -1,0 +1,48 @@
+{
+  "sourceCommit": "7405ffc",
+  "unitTests": {
+    "passed": 58
+  },
+  "typescript": "passed",
+  "expoDoctor": {
+    "passed": 18,
+    "total": 18
+  },
+  "exports": {
+    "ios": "passed",
+    "web": "passed"
+  },
+  "githubActions": "passed",
+  "browserLayoutsChecked": [
+    "320x568",
+    "390x844",
+    "1024x900"
+  ],
+  "browserInteractionsChecked": [
+    "Standard/Drop D",
+    "manual string lock",
+    "Auto",
+    "reference adjustment/reset",
+    "help"
+  ],
+  "nativeSimulator": {
+    "launch": "passed on iPhone 16 Pro Max and iPad Pro 13-inch / iOS 18.3",
+    "stringSelection": "passed",
+    "microphonePermissionPrompt": "passed",
+    "liveAudio": "blocked by AURemoteIO::Initialize RPC timeout; reproduced in an independent UIKit/AVFoundation app with no Expo or tuner code",
+    "diagnosticSource": "https://developer.apple.com/forums/thread/738346",
+    "microphonePermissionDenied": "passed on iPad: clear explanation and Open Settings action",
+    "storeScreenshots": "captured from native simulator app on iPhone and iPad"
+  },
+  "physicalDeviceAudio": "not tested",
+  "dependencyAudit": {
+    "moderate": 7,
+    "high": 14,
+    "underlyingPackages": [
+      "braces",
+      "node-forge",
+      "uuid"
+    ],
+    "scope": "Transitive Expo/React Native build tooling; unresolved in the selected Expo SDK 57 dependency tree."
+  }
+}

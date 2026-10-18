@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Pocket Guitar Tuner",
+    "slug": "pocket-guitar-tuner",
+    "owner": "jakesessiongalaxys-team",
+    "version": "1.0.0",
+    "scheme": "pocketguitartuner",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#111B18",
+    "ios": {
+      "bundleIdentifier": "com.jakejohnson.pocketguitartuner",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Pocket Guitar Tuner uses your microphone to detect guitar notes. Audio stays on your device and is never saved.",
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2518ed49-5106-4b55-9a8d-5b93e6a8fc69"
+      }
+    }
+  }
+}

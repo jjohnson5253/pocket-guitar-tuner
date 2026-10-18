@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+web-build/
+ios/
+android/
+coverage/
+.env*
+!.env.example
+credentials.json
+*.p8
+*.p12
+*.mobileprovision
+*.ipa
+.DS_Store

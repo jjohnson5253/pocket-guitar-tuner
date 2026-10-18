@@ -1,0 +1,14 @@
+{
+  "name": "Pocket Guitar Tuner",
+  "subtitle": "Simple tuning. Better music.",
+  "primaryCategory": "MUSIC",
+  "secondaryCategory": "UTILITIES",
+  "description": "Get in tune and get back to playing. Pocket Guitar Tuner is a simple guitar tuner with a clear note display and an easy-to-read cents meter.\n\n• Standard and Drop D tuning\n• Automatic string detection\n• Tap any string to lock the target note\n• Clear tune-up and tune-down guidance\n• Adjustable A4 reference from 430 to 450 Hz\n• Works offline with on-device microphone processing\n\nNo account. No ads. No audio recordings. Your sound stays on your device.\n\nPlace your iPhone near your guitar, tap Start tuning, and pluck one open string at a time. Green means you are within five cents of the target. Supports iPhone and iPad.",
+  "keywords": "guitar,tuner,tuning,drop d,standard,strings,acoustic,electric,pitch,music,offline",
+  "supportUrl": "https://jjohnson5253.github.io/pocket-guitar-tuner/",
+  "privacyPolicyUrl": "https://jjohnson5253.github.io/pocket-guitar-tuner/#privacy",
+  "copyright": "2026 Jake Johnson",
+  "reviewNotes": "No account or login is required. Tap Start tuning and allow microphone permission. Play one open guitar string near the device. Audio is processed locally and is not saved or uploaded. Standard/Drop D, manual string selection, and A4 calibration are available on the main screen.",
+  "releaseType": "AFTER_APPROVAL",
+  "price": "FREE"
+}

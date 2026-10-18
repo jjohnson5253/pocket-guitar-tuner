@@ -60,6 +60,12 @@ describe('tuning', () => {
     expect(tuningAdvice(-6)).toBe('Tune up'); expect(tuningAdvice(6)).toBe('Tune down');
     expect(tuningAdvice(5)).toBe('In tune'); expect(tuningAdvice(-5)).toBe('In tune');
   });
+  it('keeps a late permission response cancelled even after a new start', () => {
+    const session = new CaptureSession(); const pendingPermission = session.begin();
+    session.cancel(); const restarted = session.begin();
+    expect(session.isCurrent(pendingPermission)).toBe(false);
+    expect(session.isCurrent(restarted)).toBe(true);
+  });
   it('invalidates microphone starts after stop and when superseded', () => {
     const session = new CaptureSession(); const first = session.begin();
     expect(session.isCurrent(first)).toBe(true); session.cancel();

@@ -32,6 +32,9 @@ export function useTuner() {
     const timer = setInterval(() => { if (Date.now() - lastPitch.current > 700) setPitch(null); }, 200);
     return () => { sub.remove(); clearInterval(timer); session.current.cancel(); active.current = false; stream.stop(); };
   }, [stream, stop]);
+  useEffect(() => {
+    if (!isStreaming) { active.current = false; setPitch(null); }
+  }, [isStreaming]);
   async function start() {
     if (busy || active.current) return;
     const generation = session.current.begin();

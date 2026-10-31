@@ -1,0 +1,17 @@
+1. Physical-device demonstration
+The requested recording is pending and is not attached yet. Physical-device testing has not yet been verified for this resubmission.
+
+2. Purpose and audience
+Pocket Strings: Guitar Tuner (displayed on-device as Pocket Guitar Tuner) helps guitar players, including beginners and hobbyists, tune a six-string guitar before playing. It detects one played string at a time and displays the target note, measured frequency, cents offset, and tune-up/tune-down guidance. It supports Standard and Drop D tuning.
+
+3. Setup and main features
+No account, login credentials, sample files, purchases, or internet connection are required. Launch the app, place the iPhone or iPad near a guitar, tap Start tuning, and allow microphone access. Pluck one open string at a time and mute the others. Auto selects the closest guitar string; green indicates a pitch within five cents of its target. Tap a string to lock its target; tap Auto to return to automatic detection. Switch between Standard and Drop D using the tabs. Use the minus/plus controls to adjust the A4 reference from 430 to 450 Hz; tap the reference value to reset to 440 Hz. Tap ? for help. Tap Pause tuning to stop microphone capture; capture also stops when the app is backgrounded. If microphone access is denied, use Open Settings to enable it, then return and start tuning.
+
+4. External services, tools, and platforms
+The app is built with Expo, React Native, and React. On iOS, expo-audio provides microphone PCM samples; the bundled YIN pitch detector processes them locally. Core functionality uses no remote data provider, authentication service, payment processor, AI service, backend, analytics, or advertising service. Microphone audio is not saved or uploaded. Expo EAS is used for build/distribution, and GitHub Pages hosts the support/privacy page; neither is required to tune.
+
+5. Regional behavior
+The app has the same features and content across all regions where it is available. The interface is in English. There are no region-specific features, accounts, paid content, or restrictions implemented in the app.
+
+6. Regulated services and protected material
+This is a musical instrument tuning utility, not a regulated-industry service. It does not provide third-party music recordings, sheet music, or other licensed media content. No account creation/deletion, user-generated content, or paid-feature flows exist.

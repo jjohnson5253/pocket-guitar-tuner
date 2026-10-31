@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-10-18T15:14:03.058Z",
+  "verifiedAt": "2026-10-31",
   "appId": "6824234223",
   "appName": "Pocket Strings: Guitar Tuner",
   "version": "1.0.0",
@@ -9,7 +9,7 @@
   "versionId": "6a91736d-167a-4d2d-9cf3-9a81f9f3bea7",
   "releaseType": "AFTER_APPROVAL",
   "submissionId": "0efb6eab-3178-47c0-bf47-64af1da38364",
-  "submissionState": "WAITING_FOR_REVIEW",
+  "submissionState": "UNRESOLVED_ISSUES",
   "submittedDate": "2026-10-18T15:14:01.497Z",
   "testFlightGroup": "Team (Expo)",
   "screenshots": [
@@ -43,5 +43,18 @@
         }
       ]
     }
-  ]
+  ],
+  "versionState": "REJECTED",
+  "reviewNotesSaved": true,
+  "resubmitted": false,
+  "blockers": [
+    "Apple requires a screen recording beginning at launch on a physical device running the latest operating system. No recording is attached; paired iPhone unavailable.",
+    "App Store Connect displays an updated Apple Developer Program License Agreement notice requiring account-holder review and acceptance."
+  ],
+  "reviewReason": "Guideline 2.1 - Information Needed - New App Submission",
+  "validation": {
+    "unitTestsPassed": 58,
+    "typescript": "passed",
+    "physicalDeviceTesting": "not verified"
+  }
 }
